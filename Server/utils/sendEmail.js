@@ -20,4 +20,12 @@ const  sendEmail = async(subject,message,send_from,send_to,reply_to)=>{
         replyTo:reply_to,
         
     }
+     transporter.sendMail(options,(err,info)=>{
+        if(err){
+            console.log(err)
+        }else{
+            console.log(info)
+        }
+    })
 }
+module.exports = sendEmail
