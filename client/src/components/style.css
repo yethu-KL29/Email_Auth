@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    font-size: larger;
+    color: black;
+    font-weight: 900;
+    gap: 30px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
