@@ -1,3 +1,4 @@
 # Email_Auth
 
-#this is a test file
+#this is a test file 
+#email varification checking
